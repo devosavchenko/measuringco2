@@ -1,0 +1,54 @@
+{
+    "description": "For Arduino Boards (&ESP32). New Commands & Examples for the MHZ19. Supports Hardware/Software Serial. SC16IS750 version (see extras).", 
+    "repository": {
+        "url": "https://github.com/WifWaf/MH-Z19B", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr", 
+        "atmelmegaavr", 
+        "atmelsam", 
+        "espressif32", 
+        "espressif8266", 
+        "gd32v", 
+        "infineonxmc", 
+        "intel_arc32", 
+        "kendryte210", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "nordicnrf52", 
+        "ststm32", 
+        "ststm8", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "export": {
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ], 
+        "include": null
+    }, 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Jonathan Dempsey", 
+            "url": null, 
+            "email": "JDWifWaf@gmail.com"
+        }
+    ], 
+    "keywords": [
+        "sensors"
+    ], 
+    "id": 6091, 
+    "name": "MH-Z19", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "1.5.1", 
+    "homepage": "https://github.com/WifWaf/MH-Z19"
+}

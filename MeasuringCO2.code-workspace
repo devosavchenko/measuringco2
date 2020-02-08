@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\MeasuringCO2"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"array": "cpp",
+			"string": "cpp",
+			"functional": "cpp"
+		}
+	}
+}

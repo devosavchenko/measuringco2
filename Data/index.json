@@ -1,0 +1,33 @@
+{
+ "configs": [
+  "/config.live.json",
+  "/lang/lang.ru.json"
+ ],
+ "class":"col-sm-offset-1 col-sm-10 col-md-offset-0 col-md-10 col-lg-offset-0 col-lg-10",
+ "content": [
+  {
+    "title": "CO2: ",
+    "type":"chart",
+    "state":"co2.json",
+    "points":10,
+    "refresh":10000,
+    "options":"high: 2500,low: 0, showArea: true, fullWidth: true",
+    "style":"height:320px"
+   },
+   {
+     "title": "Температура: ",
+     "type":"chart2",
+     "state":"temperature.json",
+     "points":10,
+     "refresh":10000,
+     "options":"high: 50.00,low: 0, showArea: true, fullWidth: true",
+     "style":"height:243px"
+   },
+  {
+   "type": "link",
+   "title": "Конфигурация",
+   "action": "/page.htm?setup",
+   "class": "btn btn-block btn-danger"
+  }
+ ]
+}
